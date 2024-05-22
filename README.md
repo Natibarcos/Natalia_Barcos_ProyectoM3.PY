@@ -1,6 +1,7 @@
 ##Simulación de la Máquina de Galton
 ##Se deben importar librerias desde consola simbolo de sistema
 
+
 import random
 import matplotlib.pyplot as plt
 import seaborn as sns
