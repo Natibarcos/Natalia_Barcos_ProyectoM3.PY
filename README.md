@@ -27,8 +27,10 @@ def simular_maquina_galton(num_canicas, num_niveles):
     return resultados
 
 ##En este cuadro de codigo se define las caracteristicas que queremos se muestre en el grafico
+
+
 def graficar_histograma(resultados):
-    plt.figure(figsize=(9, 5)) ##Tamaño del grafico que se imprime en pantalla
+    plt.figure(figsize=(9, 5)) ##Tamaño del grafico que se imprime en pantalla    
     sns.barplot(x=list(range(1, len(resultados) + 1)), y=resultados, color='red') ##color de las barras del grafico
     plt.title('Simulación de Máquina de Galton') ##Titulo del grafico
     plt.xlabel('Contenedor') ##Niveles(12)
