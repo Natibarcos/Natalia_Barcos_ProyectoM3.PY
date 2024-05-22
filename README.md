@@ -45,7 +45,7 @@ def graficar_histograma(resultados):
     
     plt.show() ##Muestra la grafica generada
 
-# Simulación con 3000 canicas y 12 niveles
+##Simulación con 3000 canicas y 12 niveles
 
 num_canicas = 3000
 num_niveles = 12
