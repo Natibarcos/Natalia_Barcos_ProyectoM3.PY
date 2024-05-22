@@ -43,8 +43,9 @@ def graficar_histograma(resultados):
     
     plt.ylabel('Cantidad de Canicas') ##Cantidad de canicas (3000)   
     
-    plt.show() ##Muestra la grafica generada
+    plt.show() 
 
+##Muestra la grafica generada
 ##Simulación con 3000 canicas y 12 niveles
 
 num_canicas = 3000
